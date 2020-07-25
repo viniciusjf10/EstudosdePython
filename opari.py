@@ -10,5 +10,14 @@ g=10%3#resto da divisao (resto)
 h=2+10*10+3#as operaÃ§oes ocorrem igual na matematica 
 i=(2+10)*(10+3)#tambem Ã© possivel utlizar parenteses
 
+#Atribuindo valor a variaveis
+#python nao é uma linguagem tipada entao nao é preciso colocar tipo, apenas
+#escolher uma variavel e colocar um valor a ela.
+#Algumas regras devem ser seguidas, como não usar numero no inicio de variaveis
+#nao possuir espaço no nome e nao usar simbolos: "<>/?|()!@#$%^&*~-+
+#alem de preferencia usar nomes minusculos (PEP8)
 
-
+a=20
+b=45
+c=a+b
+print(c)
