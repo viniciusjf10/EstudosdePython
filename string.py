@@ -29,3 +29,13 @@ print(d[:-1]) #imprime tudo exceto a ultima letra
 print (d[::1]) #pega tudo em espaço de 1 em 1
 print(d[::2])#pega tudo em espaço de 2 em 2
 print(d[::-1])#pega tudo em espaço de 1 em 1 mas de tras pra frente
+
+#EXERCICIOS
+#01
+print(d[-1:0])
+#02
+p="Hello Python"
+print(p[6:])
+#03
+z=len(p)
+print(z)
