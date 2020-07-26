@@ -39,3 +39,7 @@ print(p[6:])
 #03
 z=len(p)
 print(z)
+
+
+
+
