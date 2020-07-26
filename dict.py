@@ -9,3 +9,19 @@ print(my_dict2['key3'][0])
 #tambem é possivel usar metodos de formataçao
 print(my_dict2['key3'][0].upper())
 
+#metodos para dicionario
+
+d={'key1':1,'key2':2,'key3':3}
+print(d.keys())
+print(d.values())
+print(d.items())
+
+#Exericios
+
+c={'Simplekey':'hello'}
+print(c.values())
+c={'k1':{'k2':'hello'}}
+print(c['k1']['k2'])
+
+
+
