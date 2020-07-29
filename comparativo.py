@@ -21,3 +21,8 @@ print(x)
 
 #exercicios
 
+2>3 #false
+3<=2 #false
+3==2.0 #false
+3.0==3 #true
+4**0.5 !=2 #false
