@@ -27,7 +27,14 @@ for tup in  l:
 print
 print('----------------') 
 d = {'k1':1, 'k2':2, 'k3':3}
-for k, v in d.itens()
+for k, v in d.items():
     print(k)
     print(v)      
 print('----------------') 
+
+#exercicios
+l=[1,4,5,67,7,8,6,54,4,3,1,21,1,9,0]
+for num in l:
+    if num %2 ==0:
+        print(num)
+        
