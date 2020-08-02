@@ -41,3 +41,16 @@ print('----------------')
 stri='Hello Python'
 for i in stri[6:]:
     print(i)
+    
+print('----------------')
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
