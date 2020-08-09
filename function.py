@@ -63,3 +63,10 @@ def remove_inicio(email):
     return email.split('@')[-1]
     
 print(remove_inicio('viniciusouzajf@gmail.com'))
+
+#
+def volume(raio):
+    return (4/3*(math.pi)*raio*raio*raio)
+print(volume(2))
+
+
