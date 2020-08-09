@@ -48,11 +48,19 @@ is_primo(18)
 import math
 def is_prime(num):
     if num %2 ==0 and num >2:
-        return false
+        return False
     for i in range (3,int(math.sqrt(num))):
         if num %i==0:
-            return false
+            return False
     return True
 
 print(is_prime(11))
     
+
+#exercicios
+#01
+def remove_inicio(email):
+    tam=len(email)
+    print(tam)
+    for n 
+remove_inicio('viniciusouzajf@gmail.com')
