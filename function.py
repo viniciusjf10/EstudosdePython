@@ -60,7 +60,6 @@ print(is_prime(11))
 #exercicios
 #01
 def remove_inicio(email):
-    tam=len(email)
-    print(tam)
-    for n 
-remove_inicio('viniciusouzajf@gmail.com')
+    return email.split('@')[-1]
+    
+print(remove_inicio('viniciusouzajf@gmail.com'))
