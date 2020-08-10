@@ -36,9 +36,42 @@ class Circle (object):
         self.radius = radius 
     def area(self):
         return self.radius *self.radius *Circle.pi
-    def serRadius(self,radius):
+    def setRadius(self,radius):
         self.radius=radius
     def getRadius(self):
         return self.radius
     
+c=Circle()
+c.setRadius(2)
+print('O raio é: ',c.getRadius())
+
+
+#herança
+#forma de formar novas classes usando outras ja criadas
+#reutilizaçao de codigos, reduçao de complexidade
+
+class Animal (object):
+    def __init__(self):
+        print("Animal Created")
+    def whoAmI(self):
+        print('Animal')
+    def eat (self):
+        print('Eating')
+class Dog(Animal):
+    def __init__(self):
+        Animal.__init__(self)
+        print("Dog Created")
+    def bark(self):
+        print("Woof")
+
+d=Dog()
+print(d.whoAmI())
+    
+
+
+
+
+
+
+
         
