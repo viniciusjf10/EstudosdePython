@@ -1,4 +1,5 @@
 #POO
+'''
 l=[1,2,3]
 print(l.count(2))
 
@@ -66,8 +67,22 @@ class Dog(Animal):
 
 d=Dog()
 print(d.whoAmI())
-    
+ '''   
+#exercicios
+#01
 
+class Cubos(object):
+    def __init__(self,breed):
+        self.breed=breed
+    def volume(self):
+        return self.breed**2
+    def area(self):
+        return (self.breed**2)*6
+c=Cubos(4)
+print("Area: ",c.area())
+print("Volume: ",c.volume())
+    
+    
 
 
 
