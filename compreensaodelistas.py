@@ -16,3 +16,10 @@ fahrenheit = [ ((9/5)*temp+32) for temp in celsius]
 print (fahrenheit)
 
 #exercicios
+#01
+
+lst=[x for x in range(0,31) if x%2==0]
+print(lst)
+
+
+
