@@ -6,3 +6,7 @@ print(p)
 p="Python"
 g={p.index(x):x for x in p}
 print(g)
+
+#exercicio
+v={x:x*x for x in range (0,31)}
+print(v)
