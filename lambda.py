@@ -33,3 +33,8 @@ print(rev('casa'))
 mult=lambda x,y:x*y
 print(mult(2,4))
 print(mult(518978,54517))
+
+meio = lambda x: x[round((len(x)/2)+0.1)-1]if len(x)%2==1 else ""
+print(meio('php'))
+print(meio('Python'))
+print(meio('sql'))
