@@ -28,3 +28,8 @@ print(first('hello'))
 
 rev= lambda s:s[::-1]
 print(rev('casa'))
+
+#exercicios
+mult=lambda x,y:x*y
+print(mult(2,4))
+print(mult(518978,54517))
