@@ -11,3 +11,7 @@ temp=[0,22.5,40,10]
 F_temps=list(map(fah,temp))
 print(F_temps)
 
+a=[1,2,3,4]
+b=[5,6,7,8]
+c=[9,10,11,12]
+print(list(map(lambda x,y:x+y,a,b)))
