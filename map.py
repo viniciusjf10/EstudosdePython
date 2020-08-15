@@ -15,3 +15,11 @@ a=[1,2,3,4]
 b=[5,6,7,8]
 c=[9,10,11,12]
 print(list(map(lambda x,y:x+y,a,b)))
+
+#exercicios
+
+def mod(x):
+    return x if x%3==0 or x%5==0 else x**2
+x=range(0,31)
+T=list(map(mod,x))
+print(T)
