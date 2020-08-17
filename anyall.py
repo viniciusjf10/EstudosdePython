@@ -6,3 +6,4 @@ print(all(lst)) #ao menos um é falso
 print(any(lst)) #ao menos um é true
 
 #exercicio
+print(all([True,True,any([False,False,True]),all([True])]))
