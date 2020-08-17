@@ -15,3 +15,7 @@ for count,item in enumerate(lst):
         
 #exercicio        
 
+lst = ["Hello Python"]
+for i, value in enumerate("Hello Python!"):
+    print(i,value)
+    
