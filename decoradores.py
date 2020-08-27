@@ -42,4 +42,13 @@ def func_needs_decorator():
     print("This function is in need of a decorator")
 print(func_needs_decorator())
 
+#exercicios
+
+def add2(func):
+    print(2+func())
+    
+@add2
+def return8():
+    return 8
+
 
