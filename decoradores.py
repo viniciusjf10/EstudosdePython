@@ -19,3 +19,15 @@ def other (func):
     print(func())
     
 print(other(hello))
+
+def new_decorator(func):
+    def wrap_func():
+        print("Code would be here, before executing the func")
+        func()
+        print("Code her will execute after the func()")
+    return wrap_func
+
+def func_needs_decorator():
+    print('This function is in need of a Decorator')
+    
+print(func_needs_decorator())
