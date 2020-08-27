@@ -18,3 +18,10 @@ print('tuple',today.timetuple())
 print('ordinal',today.toordinal())
 print('year:',today.year)
 
+#operaçoes aritimeticas
+
+d1=datetime.date(2015,3,11)
+d2=d1.replace(year=2018)
+print(d2)
+
+print(d2-d1)
