@@ -25,3 +25,9 @@ d2=d1.replace(year=2018)
 print(d2)
 
 print(d2-d1)
+
+#exercicio
+
+d1=datetime.date(2020,8,27)
+d2=datetime.date(1991,1,1)
+print(d1-d2)
