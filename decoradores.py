@@ -31,3 +31,15 @@ def func_needs_decorator():
     print('This function is in need of a Decorator')
     
 print(func_needs_decorator())
+
+#redefinindo a funçao
+func_needs_decorator=new_decorator(func_needs_decorator)
+
+print(func_needs_decorator())
+
+@new_decorator
+def func_needs_decorator():
+    print("This function is in need of a decorator")
+print(func_needs_decorator())
+
+
