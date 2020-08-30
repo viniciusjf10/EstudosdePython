@@ -13,5 +13,9 @@ print(round(3.14159266,2))
 #exercicios
 lst= range(1,33)
 print(lst)
-for i in range (1,33):
+for i in range (0,33):
     print(bin(i))
+    
+def rgb_to_hex(tup):
+    if type(tup) != tuple or any([not (i>=0 and i <256)for i in tup]) or len(tup) !3:
+        raise Exception('Argument ivalid')
