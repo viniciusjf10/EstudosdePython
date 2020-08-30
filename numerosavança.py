@@ -9,3 +9,9 @@ print(pow(2,4))
 print(abs(-1))
 #reduzir a precisao do numero
 print(round(3.14159266,2))
+
+#exercicios
+lst= range(1,33)
+print(lst)
+for i in range (1,33):
+    print(bin(i))
