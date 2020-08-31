@@ -20,3 +20,13 @@ for num in genfibon(10):
     
 #next() e iter()
 #o next acessa o proximo elemneto da sequencia
+def simple_gen():
+    for x in range(3):
+        yield x
+
+g=simple_gen()
+print(next(g))
+print(next(g))
+print(next(g))
+
+#exercicio
