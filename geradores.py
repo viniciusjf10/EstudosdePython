@@ -8,3 +8,15 @@ def gencuber(n):
 for x in gencuber(10):
     print(x)
 
+
+def genfibon(n):
+    a=1
+    b=1
+    for i in range(n):
+        yield a
+        a,b=b,a+b
+for num in genfibon(10):
+    print(num)
+    
+#next() e iter()
+#o next acessa o proximo elemneto da sequencia
