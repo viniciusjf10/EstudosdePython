@@ -30,3 +30,10 @@ print(next(g))
 print(next(g))
 
 #exercicio
+
+def gen_quad(n):
+    for num in range(n):
+        yield num**2
+
+for x in gen_quad(10):
+    print(x)
