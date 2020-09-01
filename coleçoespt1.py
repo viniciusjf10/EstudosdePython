@@ -17,3 +17,8 @@ d=defaultdict(object)
 d['one']
 for item in d:
     print(item)
+
+#exercicios 
+
+print(Counter([1,1,1,1,1,1,2,2,2,2,3,4,4,4,3,3]))
+
