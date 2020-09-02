@@ -33,3 +33,24 @@ d['c']='C'
 
 for k,v in d.items():
     print (k,v)
+
+from collections import OrderedDict
+print('OrderedDict')
+d=OrderedDict()    
+d['a']='A'
+d['b']='B'
+d['c']='C'
+
+for k,x in d.items():
+    print(k,v)
+    
+
+
+
+
+
+
+
+
+
+
