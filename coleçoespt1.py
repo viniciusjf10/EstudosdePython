@@ -77,6 +77,19 @@ frank=Dog(age=2,breed='Shepard',name='Frank')
 
 print(sam)
 
+#exercicios
+
+from collections import OrderedDict
+print('OrderedDict')
+d=OrderedDict()    
+d['p']='P'
+d['y']='Y'
+d['t']='T'
+d['h']='H'
+d['o']='O'
+d['n']='N'
+for k,x in d.items():
+    print(k,v)
 
 
 
