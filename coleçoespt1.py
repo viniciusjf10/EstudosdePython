@@ -44,6 +44,18 @@ d['c']='C'
 for k,x in d.items():
     print(k,v)
     
+#igualdade de um dicionario
+
+print('Dicionaries are equal?')
+d1={}
+d1['a'] ='A'
+d1['b'] ='B'
+
+d2={}
+d2['b'] ='B'
+d2['a'] ='A'
+
+print(d1==d2)
 
 
 
