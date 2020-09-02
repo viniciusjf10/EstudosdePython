@@ -58,7 +58,24 @@ d2['a'] ='A'
 print(d1==d2)
 
 
+d1={}
+d1['b'] ='A'
+d1['a'] ='B'
 
+d2={}
+d2['b'] ='B'
+d2['a'] ='A'
+
+print(d1==d2)
+
+#namedtuple
+from collections import namedtuple
+
+Dog= namedtuple('Dog','age breed name')
+sam= Dog(age=2,breed='lab',name='Sammy')
+frank=Dog(age=2,breed='Shepard',name='Frank')
+
+print(sam)
 
 
 
