@@ -23,4 +23,13 @@ for item in d:
 print(Counter([1,1,1,1,1,1,2,2,2,2,3,4,4,4,3,3]))
 
 #colection2
+#modulos para dicionarios
 
+print('Normal dict')
+d={}
+d['a']='A'
+d['b']='B'
+d['c']='C'
+
+for k,v in d.items():
+    print (k,v)
